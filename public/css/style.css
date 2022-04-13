@@ -1,0 +1,201 @@
+body {
+    overflow-x: hidden;
+}
+
+.btn-summit {
+    width: 300px;
+    height: 64px;
+    text-align: center;
+    border-radius: 30px;
+    border: 3px solid black;
+    padding: 4px 0 0 0;
+}
+
+.btn-teal { background: #D6F2F0; }
+.btn-teal:hover { background: #5ECCC5; }
+.btn-purple { background: #772E93; color: #fff }
+.btn-purple:hover { background: #5E196B; color: #fff }
+.btn-white { background: #fff; }
+.btn-white:hover { background: #d5d5d5; }
+
+.txt-light-teal { color: #D6F2F0; }
+.txt-teal { color: #5ECCC5; }
+.txt-dark-teal { color: #00B1A5; }
+
+.txt-purple { color: #5E196B; }
+
+.bg-purple { background: #5D1968; }
+.bg-teal { background: #5ECCC5; }
+/*.bg-light-teal { background: #D6F2F0; }*/
+
+.kit-links:hover { color: #00B1A5; }
+
+.font-staat { font-family: 'Staatliches', cursive; }
+.font-syne { font-family: 'Syne', sans-serif; }
+.font-dm { font-family: 'DM Serif Display', serif; }
+
+#section-badge {
+    background: url("/images/happy-dancer.png");
+    background-position: 95% 50%;
+    background-attachment: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#section-badge:hover {
+    background: url("/images/happy-dancer-2.png");
+    background-position: 95% 50%;
+    background-attachment: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #D6F2F0;
+    border-right: 200px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    transition: all 0.8s ease;
+}
+
+#triangle-bottomleft:hover {
+    border-bottom: 200px solid #5D1968;
+}
+
+.triangle-and-text {
+    color: black;
+    transition: all 0.8s ease;
+}
+
+.triangle-and-text:hover {
+    color: white;
+}
+
+.triangle-text {
+    pointer-events: none;
+    cursor: default;
+}
+
+.scene-first {
+    height: 900px;
+    width: 100%;
+}
+
+.viewer-first {
+    height: 900px;
+    /*max-width: 600px;*/
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    /*transform: translateY(-50px);*/
+    margin: 0 auto;
+}
+
+.scene-studio {
+    height: 600px;
+    width: 100%;
+}
+
+.viewer-studio {
+    height: 600px;
+    /*max-width: 600px;*/
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    /*transform: translateY(-50px);*/
+    margin: 0 auto;
+}
+
+.viewer-first { background-image: url('/images/attitude-turn.jpg'); width: 1420.05px; }
+.viewer-studio {background-image: url('/images/animate-studio-600.jpg'); width: 898.75px; }
+/*.viewer-studio {background-image: url('/images/animate-studio-900.jpg'); width: 1348.25px; }*/
+
+#footer-map {
+    min-height: 100vh;
+    max-height: 100% !important;
+    z-index: 3 !important;
+    position: relative;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links:hover {
+    color: #747474 !important;
+}
+
+.point-at-me {
+    cursor: pointer;
+}
+
+/* mountain shape dividers */
+
+.custom-shape-divider-bottom-1648525246 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1648525246 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 123px;
+}
+
+.custom-shape-divider-bottom-1648525246 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* mt. classes */
+
+.custom-shape-divider-bottom-1648524823 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1648524823 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 395px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1648524823 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* mt footer */
+
+.custom-shape-divider-bottom-1648590329 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1648590329 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 399px;
+}
+
+.custom-shape-divider-bottom-1648590329 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* end mountain shape dividers */
