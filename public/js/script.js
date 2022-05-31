@@ -40,6 +40,12 @@ function animate() {
         //     scrub: true,
         // }
     });
+    gsap.to('.apple-effect', {y: '200', scrollTrigger: {
+            scrub: true,
+        }});
+    gsap.to('.animate-colors-red', {duration: 1, ease: "back.inOut(2)", y: 40});
+    gsap.to('.sou-box-red', {duration: 1, ease: "back.inOut(2)", rotate: -40});
+    gsap.to('.animate-red-text', {duration: 1, ease: "back.inOut(2)", opacity: 1});
 }
 
 window.addEventListener('load', function(){

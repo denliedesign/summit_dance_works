@@ -16,6 +16,7 @@
         <!-- Fonts -->
         <style>
             @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Staatliches&family=Syne&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
         </style>
 
         <!-- Styles -->

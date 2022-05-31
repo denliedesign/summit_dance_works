@@ -5,14 +5,14 @@
                <div class="container pt-4">
                    <div class="row">
                        <div class="col-sm-9">
-                           <p class="py-0 my-0 font-dm txt-teal" style="font-size: 24px;">contact</p>
+                           <p class="py-0 my-0 font-syne txt-teal" style="font-size: 24px;">contact</p>
                            <p class="py-0 my-0 font-staat text-white" style="font-size: 24px;">
                                <ion-icon name="location-outline"></ion-icon>  5958 stetson hills blvd, colorado springs, co 80923
                                <br><ion-icon name="call-outline"></ion-icon> 719-362-6843
                                <br><ion-icon name="mail-outline"></ion-icon> info@summitdanceworks.com
                            </p>
                            <div class="mt-5">
-                               <p class="py-0 my-0 font-dm txt-teal" style="font-size: 24px;">social</p>
+                               <p class="py-0 my-0 font-syne txt-teal" style="font-size: 24px;">social</p>
                                <p class="py-0 my-0 font-staat text-white" style="font-size: 24px;">
                                    <a href="https://www.facebook.com/summitdanceworkscos" target="_blank" class="footer-links"><ion-icon class="" name="logo-facebook"></ion-icon></a>
                                    <a href="https://www.instagram.com/summitdanceworks/" target="_blank" class="footer-links"><ion-icon class="mx-4" name="logo-instagram"></ion-icon></a>
@@ -21,7 +21,7 @@
                            </div>
                        </div>
                        <div class="col-sm-3">
-                           <p class="py-0 my-0 font-dm txt-teal" style="font-size: 24px;">links</p>
+                           <p class="py-0 my-0 font-syne txt-teal" style="font-size: 24px;">links</p>
                            <div class="py-0 my-0 font-staat" style="font-size: 24px;">
                                <a class="footer-links" style="text-decoration: none; color: white;" href="">home</a>
                                <br><a class="footer-links" href="/about">about</a>
